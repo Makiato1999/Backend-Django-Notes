@@ -7,5 +7,6 @@
    - [cards](https://getbootstrap.com/docs/4.0/components/card/)
    - [badge](https://getbootstrap.com/docs/4.0/components/badge/)<br>can insert between span tag
    - [alert](https://getbootstrap.com/docs/4.0/components/alerts/)
+   - [initialize bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 3. React
 ## Programming in Python
