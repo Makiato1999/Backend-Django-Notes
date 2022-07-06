@@ -2,7 +2,9 @@
 ## Introduction to Back-End Development
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
-   - breakpoint, infix(indicate the breakpoint in Bootstrap CSS rules), bootstrap modifiers(add a CSS class to change the visual style of components)
+   - breakpoint
+      - infix(indicate the breakpoint in Bootstrap CSS rules)
+      - bootstrap modifiers(add a CSS class to change the visual style of components)
    - [grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
    - containers, row, col col-12/col-lg-6(different screen size)
    - [cards](https://getbootstrap.com/docs/4.0/components/card/)
