@@ -10,4 +10,5 @@
    - [bootstrap web](https://getbootstrap.com/docs/5.2/getting-started/introduction/)<br>bootstrap.min.css, bootstrap.min.js
 3. React
 - SAP(single application page)
+- Virtual DOM(Document Object Model)
 ## Programming in Python
