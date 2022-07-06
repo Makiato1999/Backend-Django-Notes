@@ -14,4 +14,5 @@
 3. Into React
    - SAP(single application page)
    - Virtual DOM(Document Object Model)
+   - component hierarchy
 ## Programming in Python
