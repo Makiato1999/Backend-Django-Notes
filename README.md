@@ -17,4 +17,5 @@
    - component hierarchy
 ## Programming in Python
 1. install Python/change python version
+   - [Installing Python path for MacOS](~/PythonPath.md)
 2. 
