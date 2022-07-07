@@ -16,3 +16,5 @@
    - Virtual DOM(Document Object Model)
    - component hierarchy
 ## Programming in Python
+1. install Python/change python version
+2. 
