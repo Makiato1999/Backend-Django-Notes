@@ -18,5 +18,5 @@
   - compile it with `source ~/.zshrc`
   - then check `python --version`, look if the default version is updated.
 ##### if it doesn't exist, we will install new version Python
-  - install brewhouse first, then `brew info python`
+  - install hom brew first, then `brew info python`
   - then, go back to if it exists
