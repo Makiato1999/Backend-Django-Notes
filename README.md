@@ -21,3 +21,8 @@
 2. datatype
    - list [], tuple ()
       - list can be modified(append, insert, pop), but tuple is immutable
+3. type casting
+4. String
+   - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
+   - "I am a {0} student in {1}".format("Shawn", "UofM")
+   - "I am a {} student in {}".format("Shawn", "UofM")
