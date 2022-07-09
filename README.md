@@ -18,7 +18,14 @@
 ## Programming in Python
 1. install Python/change python version
    - [Installing Python path for MacOS](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/PythonPath.md)
-2. data structure
+2. type casting
+3. String
+   - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
+   - "I am a {0} student in {1}".format("Shawn", "UofM")
+   - "I am a {} student in {}".format("Shawn", "UofM")
+4. loop
+   - for index, item in enumerate(func):
+5. data structure
    - list [], tuple ()
       - list can be modified(append, insert, pop), but tuple is immutable
    - set
@@ -42,10 +49,3 @@
          for k, v in kwargs.items():
             sum += v
       ```
-3. type casting
-4. String
-   - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
-   - "I am a {0} student in {1}".format("Shawn", "UofM")
-   - "I am a {} student in {}".format("Shawn", "UofM")
-5. loop
-   - for index, item in enumerate(func):
