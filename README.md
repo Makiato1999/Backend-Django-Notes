@@ -18,9 +18,12 @@
 ## Programming in Python
 1. install Python/change python version
    - [Installing Python path for MacOS](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/PythonPath.md)
-2. datatype
+2. data structure
    - list [], tuple ()
       - list can be modified(append, insert, pop), but tuple is immutable
+   - set
+      - is a collection with no duplicated
+      - set is not a sequence, it doesn't contain order index, set can not search with index
 3. type casting
 4. String
    - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
