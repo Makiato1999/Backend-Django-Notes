@@ -26,3 +26,5 @@
    - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
    - "I am a {0} student in {1}".format("Shawn", "UofM")
    - "I am a {} student in {}".format("Shawn", "UofM")
+5. loop
+   - for index, item enumerate(func):
