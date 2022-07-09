@@ -24,6 +24,9 @@
    - set
       - is a collection with no duplicated
       - set is not a sequence, it doesn't contain order index, set can not search with index
+   - dictionary 
+      - key:value
+      - ```for key, value in my_dict.items(): print(str(key) + ":" + value)```
 3. type casting
 4. String
    - "I am a {major} student in {university}".format(major="Shawn", university="UofM")
