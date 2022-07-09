@@ -42,10 +42,12 @@
       def sum(*args): 
          for x in args:
             sum += x
+      sum(1, 3, 4, 6, 7)
       ```
    - kwargs
       ```
       def sum(**kwargs):
          for k, v in kwargs.items():
             sum += v
+      sum(coffee:2.9, tea:1.6, sanwich:4.3)
       ```
