@@ -51,3 +51,6 @@
             sum += v
       sum(coffee:2.9, tea:1.6, sanwich:4.3)
       ```
+6. read/write file
+   - ```with open(filename, "r") as file:```
+   - use 'with' operate file, otherwise need to use close
