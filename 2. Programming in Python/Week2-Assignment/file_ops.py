@@ -121,11 +121,13 @@ Here are some sample commands to help you run/test your implementations.
 Feel free to uncomment/modify/add to them as you wish.
 '''
 def main():
-    file_contents = read_file("sampletext.txt")
-    #print(read_file_into_list("sampletext.txt"))
-    #write_first_line_to_file(file_contents, "online.txt")
-    #print(read_even_numbered_lines("sampletext.txt"))
-    #print(read_file_in_reverse("sampletext.txt"))
+    path = "./2. Programming in Python/Week2-Assignment/sampletext.txt"
+    createFile_path = "./2. Programming in Python/Week2-Assignment/online.txt"
+    file_contents = read_file(path)
+    print(read_file_into_list(path))
+    write_first_line_to_file(file_contents, createFile_path)
+    print(read_even_numbered_lines(path))
+    print(read_file_in_reverse(path))
 
 if __name__ == "__main__":
     main()
