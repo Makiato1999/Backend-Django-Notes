@@ -62,6 +62,7 @@
       # str[start:stop:step]
       temop_string = string[::-1]
       ```
+      [more string slice() details](https://www.tutorialsteacher.com/python/slice-method#:~:text=Python%20slice()%20function,and%20__len__()%20methods.)
       - recursion
       ```
       def reverse_str(str):
