@@ -70,5 +70,8 @@
          else:
             return reverse_str(str[1::]) + str[0]
       ```
- 9. Map
+ 9. Map & filter
+   - map() returns every item in an iterable
+   - same as map, but filter() only returns values if True.
+ 11. 
 
