@@ -54,3 +54,4 @@
 6. read/write file
    - ```with open(filename, "r") as file:```
    - use 'with' operate file, otherwise need to use close
+7. :smiling_face_with_tear: I got COVID this week and i have to suspect the studying. I feel like swallowing a blade down my throat for whole week, please protect yourself. TAKE CARE.
