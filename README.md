@@ -55,3 +55,20 @@
    - ```with open(filename, "r") as file:```
    - use 'with' operate file, otherwise need to use close
 7. :smiling_face_with_tear: I got COVID this week and i have to suspend the studying. The fever made me feel headache, and sore throat felt like swallowing a blade down my throat, please protect yourself. TAKE CARE.
+8. recursion
+   - reverse String
+      - slice function
+      ```
+      # str[start:stop:step]
+      temop_string = string[::-1]
+      ```
+      - recursion
+      ```
+      def reverse_str(str):
+         if len(str) == 0:
+            return str
+         else:
+            return reserve_str(str[1::]) + str[0]
+      ```
+ 9.
+
