@@ -72,6 +72,8 @@
       ```
 9. Map & filter
    - map() returns every item in an iterable
-   - same as map, but filter() only returns values if True.
-11. 
+   - same as map, but filter() only returns values if True
+10. comprehension
+   - list comprehension
+   - dictionary
 
