@@ -68,7 +68,7 @@
          if len(str) == 0:
             return str
          else:
-            return reserve_str(str[1::]) + str[0]
+            return reverse_str(str[1::]) + str[0]
       ```
  9.
 
