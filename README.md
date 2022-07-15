@@ -70,5 +70,5 @@
          else:
             return reverse_str(str[1::]) + str[0]
       ```
- 9.
+ 9. Map
 
