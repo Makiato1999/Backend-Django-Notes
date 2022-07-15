@@ -70,10 +70,13 @@
          else:
             return reverse_str(str[1::]) + str[0]
       ```
-9. Map & filter
+9. Map & filter 
    - map() returns every item in an iterable
    - same as map, but filter() only returns values if True
-10. comprehension
+1. comprehension
    - list comprehension
-   - dictionary
+      - ```[ <expression> for x in <sequence> if <condition>]```
+   - dictionary comprehension
+      - ```dict = { key:value for key, value in <sequence> if <condition> }```
+2. 
 
