@@ -90,8 +90,9 @@
    - almost same as Java
    - encapsulation, polymorphism, inheritance and abstraction
    - constructor
-     ```def __init__(self, newData):
-            self.data = newData
+     ```
+     def __init__(self, newData):
+         self.data = newData
      ```
    - 
 
