@@ -57,7 +57,7 @@
 7. :smiling_face_with_tear: I got COVID this week and i have to suspend the studying. The fever made me feel headache, and sore throat felt like swallowing a blade down my throat, please protect yourself. TAKE CARE.
 8. recursion
    - reverse String
-      - slice function
+      - slice function(Using Indexing Syntax)
       ```
       # str[start:stop:step]
       temop_string = string[::-1]
