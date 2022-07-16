@@ -79,5 +79,7 @@
       - ```[ <expression> for x in <sequence> if <condition>]```
    - dictionary comprehension
       - ```dict = { key:value for key, value in <sequence> if <condition> }```
+   - Generator comprehension
+      - similiar to list, but use ()
 2. 
 
