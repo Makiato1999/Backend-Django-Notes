@@ -86,6 +86,7 @@
       - similiar to list, but use ()
    - zip()
       - [Week3-Assignment can use zip(), good idea even it makes code complex](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/Week3-Assignment/zip.png)
+   - refer to [comprehensions.py](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/Week3-Assignment/comprehensions.py)
 2. Object Oriented Programming
    - almost same as Java
    - encapsulation, polymorphism, inheritance and abstraction
@@ -110,4 +111,5 @@
             pass
      ```
    - override
+   - refer to [bank.py](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/Week3-Assignment-abstract/bank.py)
 3. 
