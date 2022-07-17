@@ -96,3 +96,16 @@
      ```
    - Inheritance and Multiple Inheritance
    - abstract
+     ```
+     from abc import ABC
+     class abstractClass(ABC):
+         pass
+     ```
+     if there is abstract method, then
+     ```
+     from abc import ABC, abstractmethod
+     class abstractClass(ABC):
+         @abstractmethod
+         def someAbstractMethod(self):
+            pass
+     ```
