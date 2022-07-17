@@ -94,5 +94,5 @@
      def __init__(self, newData):
          self.data = newData
      ```
-   - 
+   - Inheritance and Multiple Inheritance
 
