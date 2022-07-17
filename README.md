@@ -95,4 +95,4 @@
          self.data = newData
      ```
    - Inheritance and Multiple Inheritance
-
+   - abstract
