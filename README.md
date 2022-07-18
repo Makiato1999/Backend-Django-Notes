@@ -130,3 +130,8 @@
    - full stack(Django)
    - microframework(Flask)
    - asynchronous
+5. testing
+   - unit
+   - integration
+   - system
+   - acceptance 
