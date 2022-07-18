@@ -123,4 +123,6 @@
      sys.path.insert(1, r"C:\Users\Madecraft Author\Programs\Workplace")
      import trial
      ```
+   - others, such as```from json import *```
    - refer to [jsongenerator.py](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/2.%20Programming%20in%20Python/Week4-Assignment-import/jsongenerator.py)
+4. 
