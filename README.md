@@ -154,4 +154,5 @@
    - cat - Allows reading or concatenation of a file
    - less - Displays the contents of a file one page at a time.
    - grep - Global regular expression, allows for searching contents of files or folders
-3. 
+3. pip
+   - ```cat file.txt | wc -w```
