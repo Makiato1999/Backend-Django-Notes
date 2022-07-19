@@ -156,3 +156,5 @@
    - grep - Global regular expression, allows for searching contents of files or folders
 3. pip
    - ```cat file.txt | wc -w```
+4. redirection 
+5. grep
