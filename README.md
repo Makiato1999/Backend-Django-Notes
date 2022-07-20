@@ -171,3 +171,4 @@
    - restore file from tracked to untracked, go back to last step, ```git restore --stage helloWorld.java```
    - ```git commit -m "add helloWorld.java to main branch..."```
    - ```git push -u origin yourBranchName```
+   - updated local content from remote repository, ```git pull```
