@@ -165,7 +165,7 @@
    - open terminal and find the location of the clone repository 
    - ```git clone -b branch``` + urlLink
    - check if there is the file you need
-   - create a new branch, ```git checkout -b yourNewBranchName```
+   - create a new branch, ```git checkout -b yourNewBranchName```, go back to main branch, ```git checkout main```
    - check current branches, ```git status```
    - change untracked file to tracked, add file in staging status, ```git add helloWorld.java``` / ```git add *```
    - restore file from tracked to untracked, go back to last step, ```git restore --stage helloWorld.java```
