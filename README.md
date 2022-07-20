@@ -158,3 +158,5 @@
    - ```cat file.txt | wc -w```
 4. redirection 
 5. grep
+6. correct workflow
+   - from the working directory to the staging area, then to committed files, remote repository     
