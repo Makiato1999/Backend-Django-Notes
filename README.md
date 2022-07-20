@@ -160,3 +160,11 @@
 5. grep
 6. correct workflow
    - from the working directory to the staging area(git add), then to committed files(git commit), remote repository(git push)  
+8. How to use simple git commands
+   - open terminal and find the location of the clone repository 
+   - ```git clone -b branch``` + urlLink
+   - check if there is the file you need, ```git checkout -b newBranch```, create a new branch
+   - check current branches, ```git status```
+   - add track files in staging, ```git add helloWorld.java``` / ```git add *```
+   - ```git commit -m "add helloWorld.java to main branch..."```
+   - ```git push -u origin yourBranchName```
