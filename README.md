@@ -164,8 +164,10 @@
 8. How to use simple git commands<a name="anchor_31"></a>
    - open terminal and find the location of the clone repository 
    - ```git clone -b branch``` + urlLink
-   - check if there is the file you need, ```git checkout -b newBranch```, create a new branch
+   - check if there is the file you need
+   - create a new branch, ```git checkout -b yourNewBranchName```
    - check current branches, ```git status```
-   - add track files in staging, ```git add helloWorld.java``` / ```git add *```
+   - change untracked file to tracked, add file in staging status, ```git add helloWorld.java``` / ```git add *```
+   - restore file from tracked to untracked, go back to last step, ```git restore --stage helloWorld.java```
    - ```git commit -m "add helloWorld.java to main branch..."```
    - ```git push -u origin yourBranchName```
