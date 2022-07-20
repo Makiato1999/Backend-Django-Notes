@@ -159,4 +159,4 @@
 4. redirection 
 5. grep
 6. correct workflow
-   - from the working directory to the staging area, then to committed files, remote repository     
+   - from the working directory to the staging area(git add), then to committed files(git commit), remote repository(git push)  
