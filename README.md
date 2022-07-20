@@ -4,6 +4,7 @@
 2. [Programming in Python](#anchor_2)
    - [Object Oriented Programming](#anchor_21)
 3. [Version Control](#anchor_3)
+   - [git commands](#anchor_31)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -160,7 +161,7 @@
 5. grep
 6. correct workflow
    - from the working directory to the staging area(git add), then to committed files(git commit), remote repository(git push)  
-8. How to use simple git commands
+8. How to use simple git commands<a name="anchor_31"></a>
    - open terminal and find the location of the clone repository 
    - ```git clone -b branch``` + urlLink
    - check if there is the file you need, ```git checkout -b newBranch```, create a new branch
