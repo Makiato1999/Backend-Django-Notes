@@ -198,8 +198,12 @@
      ```
    - ```SELECT * FROM Users```
      <br>is same as:
-     ```User.objects.values()```
+     ```
+     User.objects.values()
+     ```
    - ```SELECT * FROM Users WHERE email='csev@uofm.ca'```
      <br>is same as:
-     ```User.objects.filter(email='csev@uofm.ca').values```
+     ```
+     User.objects.filter(email='csev@uofm.ca').values
+     ```
    -
