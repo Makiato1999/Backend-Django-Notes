@@ -191,11 +191,15 @@
 3. Object Relational Mapping
 4. CRUD in the ORM
    - ```INSERT INTO Users (name, email) VALUES ('Kristina', 'kf@uofm.ca')```
-     is same as:
+     <br>is same as:
      ```
      u = User(name='Kristina', email='kf@uofm.ca')
      u.save()
      ```
    - ```SELECT * FROM Users```
-     is same as:
+     <br>is same as:
      ```User.objects.values()```
+   - ```SELECT * FROM Users WHERE email='csev@uofm.ca'```
+     <br>is same as:
+     ```User.objects.filter(email='csev@uofm.ca').values```
+   -
