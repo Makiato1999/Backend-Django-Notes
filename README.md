@@ -188,4 +188,4 @@
    - ```SELECT * FROM Users```
    - ```SELECT * FROM Users WHERE email='csev@uofm.ca'```
    - ```SELECT * FROM Users ORDER BY email'```
-3. 
+3. Object Relational Mapping
