@@ -181,3 +181,11 @@
    - Model: The persistent data that we keep in the data store
    - View: Html, Css, etc. which makes up the look and feel of the application
    - Controller: The code that does the thinking and decision making
+2. SQL summary
+   - ```INSERT INTO Users (name, email) VALUES ('Kristina', 'kf@uofm.ca')```
+   - ```DELETE FROM Users WHERE email='ted@uofm.ca'```
+   - ```UPDATE Users SET name="Shawn" WHERE email='csev@uofm.ca'```
+   - ```SELECT * FROM Users```
+   - ```SELECT * FROM Users WHERE email='csev@uofm.ca'```
+   - ```SELECT * FROM Users ORDER BY email'```
+3. 
