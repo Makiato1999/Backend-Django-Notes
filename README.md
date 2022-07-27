@@ -189,3 +189,13 @@
    - ```SELECT * FROM Users WHERE email='csev@uofm.ca'```
    - ```SELECT * FROM Users ORDER BY email'```
 3. Object Relational Mapping
+4. CRUD in the ORM
+   - ```INSERT INTO Users (name, email) VALUES ('Kristina', 'kf@uofm.ca')```
+     is same as:
+     ```
+     u = User(name='Kristina', email='kf@uofm.ca')
+     u.save()
+     ```
+   - ```SELECT * FROM Users```
+     is same as:
+     ```User.objects.values()```
