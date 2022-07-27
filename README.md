@@ -206,4 +206,14 @@
      ```
      User.objects.filter(email='csev@uofm.ca').values
      ```
-   -
+   - ```UPDATE Users SET name="Shawn" WHERE email='csev@uofm.ca'```
+     <br>is same as:
+     ```
+     User.objects.filter(email='csev@uofm.ca').update(name='Shawn')
+     ```
+   - ```SELECT * FROM Users ORDER BY email'```
+     <br>is same as:
+     ```
+     User.objects.values().order_by('email')
+     ```
+5. 
