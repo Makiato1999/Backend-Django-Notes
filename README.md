@@ -178,3 +178,6 @@
    - updated local content from remote repository, ```git pull```
 ## Building Web Applications in Django<a name="anchor_4"></a>
 1. Model-View-Controller
+   - Model: The persistent data that we keep in the data store
+   - View: Html, Css, etc. which makes up the look and feel of the application
+   - Controller: The code that does the thinking and decision making
