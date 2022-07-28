@@ -217,3 +217,8 @@
      User.objects.values().order_by('email')
      ```
 5. if you screw up, use ```rm db.sqlite3``` to wipe database, and ```python3 manage.py migrate```to have new initialization
+6. What does the "python manage.py migrate" command do?
+   - Builds/updates the database structure for the project
+7. What is the purpose of the models.py file?
+   - To define the shape of the data objects to be stored in a database
+8. 
