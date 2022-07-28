@@ -181,6 +181,8 @@
    - Model: The persistent data that we keep in the data store
    - View: Html, Css, etc. which makes up the look and feel of the application
    - Controller: The code that does the thinking and decision making
+   - Which of the following files does Django consult first when it receives an incoming HTTP Request?
+      - urls.py
 2. SQL summary
    - ```INSERT INTO Users (name, email) VALUES ('Kristina', 'kf@uofm.ca')```
    - ```DELETE FROM Users WHERE email='ted@uofm.ca'```
