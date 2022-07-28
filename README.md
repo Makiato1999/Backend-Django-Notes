@@ -216,4 +216,4 @@
      ```
      User.objects.values().order_by('email')
      ```
-5. 
+5. if you screw up, use ```rm db.sqlite3``` to wipe database, and ```python3 manage.py migrate```to have new initialization
