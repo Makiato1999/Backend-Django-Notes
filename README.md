@@ -223,4 +223,8 @@
    - Builds/updates the database structure for the project
 7. What is the purpose of the models.py file?
    - To define the shape of the data objects to be stored in a database
-8. 
+8. three-step guide to making model changes:
+   - Change your models (in models.py).
+   - Run ```python manage.py makemigrations``` to create migrations for those changes
+   - Run ```python manage.py migrate``` to apply those changes to the database.
+9. 
