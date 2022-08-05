@@ -241,9 +241,31 @@
       ]
       
       # response:
+      from django.http import HttpResponse
+      from django.utils.html import escape
+      
       def rest(request, guess):
          response = """<html><body><p>"""+escape(guess)+"""</p></body></html>"""
-         return response
+         return HttpResponse(response)
       ```
    - class based views
+      ```
+      # url:
+      # http://samples.dj4e.com/views/remain/xxr123-33-nbnb
+      
+      # url.py:
+      urlpatterns = [
+         path('remain/<slug:guess>', views.RestMainView.as_view()),
+      ]
+      
+      # response:
+      from django.http import HttpResponse
+      from django.utils.html import escape
+      from django.views import View
+      
+      Class RestMainView(View):
+         def get(self, request, guess):
+            response = """<html><body><p>"""+escape(guess)+"""</p></body></html>"""
+            return HttpResponse(response)
+      ```
 
