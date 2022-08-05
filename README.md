@@ -5,7 +5,8 @@
    - [Object Oriented Programming](#anchor_21)
 3. [Version Control](#anchor_3)
    - [git commands](#anchor_31)
-4. [Building Web Applications in Django](#anchor_4)
+4. [Web Application Technologies and Django](#anchor_4)
+5. [Building Web Applications in Django](#anchor_5)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -176,7 +177,7 @@
    - ```git commit -m "add helloWorld.java to main branch..."```
    - ```git push -u origin yourBranchName```
    - updated local content from remote repository, ```git pull```
-## Building Web Applications in Django<a name="anchor_4"></a>
+## Web Application Technologies and Django<a name="anchor_4"></a>
 1. Model-View-Controller
    - Model: The persistent data that we keep in the data store
    - View: Html, Css, etc. which makes up the look and feel of the application
@@ -227,4 +228,22 @@
    - Change your models (in models.py).
    - Run ```python manage.py makemigrations``` to create migrations for those changes
    - Run ```python manage.py migrate``` to apply those changes to the database.
-9. 
+## Building Web Applications in Django<a name="anchor_5"></a>
+1. views
+   - function based views
+      ```
+      # url:
+      # http://samples.dj4e.com/views/rest/41
+      
+      # url.py:
+      urlpatterns = [
+         path('rest/<int:guess>', view.rest),
+      ]
+      
+      # response:
+      def rest(request, guess):
+         response = """<html><body><p>"""+escape(guess)+"""</p></body></html>"""
+         return response
+      ```
+   - class based views
+
