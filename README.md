@@ -268,4 +268,6 @@
             response = """<html><body><p>"""+escape(guess)+"""</p></body></html>"""
             return HttpResponse(response)
       ```
+2. Templates
+3. 
 
