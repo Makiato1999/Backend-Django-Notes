@@ -6,7 +6,8 @@
 3. [Version Control](#anchor_3)
    - [git commands](#anchor_31)
 4. [Web Application Technologies and Django](#anchor_4)
-5. [Building Web Applications in Django](#anchor_5)
+   - [If db gets messed up](#anchor_41)
+6. [Building Web Applications in Django](#anchor_5)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -219,12 +220,18 @@
      ```
      User.objects.values().order_by('email')
      ```
-5. if you screw up, use ```rm db.sqlite3``` to wipe database, and ```python3 manage.py migrate```to have new initialization
-6. What does the "python manage.py migrate" command do?
+5. If db gets messed up (if you screw up)<a name="anchor_41"></a>
+   - ```cd ~/django_projects/mysite/polls/```
+   - ```rm *migrations/00*```
+   - ```rm db.sqlite3```
+   - ```python manage.py makemigrations```
+   - ```python manage.py migrate```
+   - ```python manage.py createsuperuser```
+7. What does the "python manage.py migrate" command do?
    - Builds/updates the database structure for the project
-7. What is the purpose of the models.py file?
+8. What is the purpose of the models.py file?
    - To define the shape of the data objects to be stored in a database
-8. three-step guide to making model changes:
+9. three-step guide to making model changes:
    - Change your models (in models.py).
    - Run ```python manage.py makemigrations``` to create migrations for those changes
    - Run ```python manage.py migrate``` to apply those changes to the database.
