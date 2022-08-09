@@ -295,8 +295,22 @@
    ```
 4. Templates
    - Django template language
-      - Removing hardcoded URLs in templates
+      - Removing hardcoded URLs in templates, this is the example:
+        - ```<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>```
+      - other using ways, such as normal statement in python
+        - ```
+          {% if latest_question_list %}
+          <ul>
+               {% for question in latest_question_list %}
+                  <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+               {% endfor %}
+          </ul>
+          {% else %}
+               <p>No polls are available.</p>
+          {% endif %}
+          ```
 5. {% csrf_token %} 
 6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
    - forms, GET, POST, generic views [django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
+7. 
 
