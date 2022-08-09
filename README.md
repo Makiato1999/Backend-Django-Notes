@@ -8,6 +8,7 @@
 4. [Web Application Technologies and Django](#anchor_4)
    - [If db gets messed up](#anchor_41)
 6. [Building Web Applications in Django](#anchor_5)
+7. []
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -288,5 +289,5 @@
 4. Templates
    - Django template language
       - Removing hardcoded URLs in templates
-5. 
+5. {% csrf_token %} 
 
