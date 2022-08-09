@@ -330,6 +330,7 @@
            ```
 6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
    - forms, GET, POST, generic views [django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
+7. a sqlite3 db has existed in https://makiato1999.pythonanywhere.com/polls
 ## Django Features and Libraries<a name="anchor_6"></a>
 1.
 
