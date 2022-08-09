@@ -11,6 +11,7 @@
 6. [Building Web Applications in Django](#anchor_5)
    - [django document 03(url.py, views.py, templete(html))](#anchor_51)
    - [django document 04(forms, GET, POST, generic views)](#anchor_52)
+7. [Django Features and Libraries](#anchor_6)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -293,7 +294,7 @@
       context = {'latest_question_list': latest_question_list}
       return render(request, 'polls/index.html', context)
    ```
-4. Templates
+4. Templates, most of them are HTML
    - Django template language
       - Removing hardcoded URLs in templates, this is the example:
         - ```<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>```
@@ -329,5 +330,6 @@
            ```
 6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
    - forms, GET, POST, generic views [django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
-7. 
+## Django Features and Libraries<a name="anchor_6"></a>
+1.
 
