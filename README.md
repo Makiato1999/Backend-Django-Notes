@@ -309,7 +309,24 @@
                <p>No polls are available.</p>
           {% endif %}
           ```
-5. {% csrf_token %} 
+       - in the form and using POST, we should take care about {% csrf_token %} 
+         - ```
+           <form action="{% url 'polls:vote' question.id %}" method="post">
+           {% csrf_token %}
+               <fieldset>
+                  <legend><h1>{{ question.question_text }}</h1></legend>
+                  {% if error_message %}
+                   <p><strong>{{ error_message }}</strong></p>
+                  {% endif %}
+                  {% for choice in question.choice_set.all %}
+                     <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+                     <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label>
+                     <br>
+                  {% endfor %}
+               </fieldset>
+                     <input type="submit" value="Vote">
+           </form>
+           ```
 6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
    - forms, GET, POST, generic views [django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
 7. 
