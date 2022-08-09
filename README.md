@@ -9,7 +9,8 @@
    - [If db gets messed up](#anchor_41)
    - [django document 01(intro), 02(model, migration)](#anchor_42)
 6. [Building Web Applications in Django](#anchor_5)
-   - [django tutorial02 document](#anchor_51)
+   - [django document 03(url.py, views.py, templete(html))](#anchor_51)
+   - [django document 04(forms, GET, POST, generic views)](#anchor_52)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -280,7 +281,9 @@
             response = """<html><body><p>"""+escape(guess)+"""</p></body></html>"""
             return HttpResponse(response)
       ```
-2. render
+2. there are too many contents, read django document is a better way to study it<a name="anchor_51"></a>
+   - url.py, views.py, templete(html)[django tutorial03](https://docs.djangoproject.com/en/3.2/intro/tutorial03/)
+3. render
    ```
    from django.shortcuts import render
    from .models import Question
@@ -294,4 +297,6 @@
    - Django template language
       - Removing hardcoded URLs in templates
 5. {% csrf_token %} 
+6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
+   - forms, GET, POST, generic views[django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
 
