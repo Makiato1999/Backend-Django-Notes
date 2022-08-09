@@ -282,7 +282,7 @@
             return HttpResponse(response)
       ```
 2. there are too many contents, read django document is a better way to study it<a name="anchor_51"></a>
-   - url.py, views.py, templete(html)[django tutorial03](https://docs.djangoproject.com/en/3.2/intro/tutorial03/)
+   - url.py, views.py, templete(html) [django tutorial03](https://docs.djangoproject.com/en/3.2/intro/tutorial03/)
 3. render
    ```
    from django.shortcuts import render
@@ -298,5 +298,5 @@
       - Removing hardcoded URLs in templates
 5. {% csrf_token %} 
 6. there are too many contents, read django document is a better way to study it<a name="anchor_52"></a>
-   - forms, GET, POST, generic views[django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
+   - forms, GET, POST, generic views [django tutorial04](https://docs.djangoproject.com/en/3.2/intro/tutorial04/)
 
