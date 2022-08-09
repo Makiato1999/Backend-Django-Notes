@@ -7,8 +7,9 @@
    - [git commands](#anchor_31)
 4. [Web Application Technologies and Django](#anchor_4)
    - [If db gets messed up](#anchor_41)
+   - [django document 01(intro), 02(model, migration)](#anchor_42)
 6. [Building Web Applications in Django](#anchor_5)
-7. []
+   - [django tutorial02 document](#anchor_51)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -236,6 +237,9 @@
    - Change your models (in models.py).
    - Run ```python manage.py makemigrations``` to create migrations for those changes
    - Run ```python manage.py migrate``` to apply those changes to the database.
+1. there are too many contents, read django document is a better way to study it<a name="anchor_42"></a>
+   - [django tutorial01](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)
+   - models and mogration [django tutorial02](https://docs.djangoproject.com/en/3.2/intro/tutorial02/)
 ## Building Web Applications in Django<a name="anchor_5"></a>
 1. views
    - function based views
