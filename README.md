@@ -334,7 +334,7 @@
 7. a sqlite3 db has existed in https://makiato1999.pythonanywhere.com/polls, if you want to use admin, you should use 
    - Account: dj4e, Password: bc53a9938
 ## Django Features and Libraries<a name="anchor_6"></a>
-1. Building a Main Page<a name="anchor_61"></a>
+1. Building a Main Page/ add a new application<a name="anchor_61"></a>
    ```
    workon django3                  # as needed
    cd ~/django_projects/mysite
