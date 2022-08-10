@@ -12,6 +12,7 @@
    - [django document 03(url.py, views.py, templete(html))](#anchor_51)
    - [django document 04(forms, GET, POST, generic views)](#anchor_52)
 7. [Django Features and Libraries](#anchor_6)
+   - [Building a Main Page](#anchor_61)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -334,5 +335,20 @@
    - Account: dj4e, Password: bc53a9938
 ## Django Features and Libraries<a name="anchor_6"></a>
 1. cookie and session
-2. 
-
+2. Building a Main Page<a name="anchor_61"></a>
+   ```
+   workon django3                  # as needed
+   cd ~/django_projects/mysite
+   python3 manage.py startapp home
+   ```
+   Create an HTML file in ~/django_projects/mysite/home/templates/home/main.html
+   <br>
+   dont forgot to update ~/django_projects/mysite/mysite/urls.py
+   ```
+   path('', TemplateView.as_view(template_name='home/main.html')),
+   ```
+   Then edit the file ~/django_projects/mysite/mysite/settings.py and add a line to load the home application.
+   ```
+   python3 manage.py check
+   ```
+3. 
