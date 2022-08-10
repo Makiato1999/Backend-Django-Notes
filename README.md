@@ -334,8 +334,7 @@
 7. a sqlite3 db has existed in https://makiato1999.pythonanywhere.com/polls, if you want to use admin, you should use 
    - Account: dj4e, Password: bc53a9938
 ## Django Features and Libraries<a name="anchor_6"></a>
-1. cookie and session
-2. Building a Main Page<a name="anchor_61"></a>
+1. Building a Main Page<a name="anchor_61"></a>
    ```
    workon django3                  # as needed
    cd ~/django_projects/mysite
@@ -351,4 +350,16 @@
    ```
    python3 manage.py check
    ```
-3. 
+2. cookies and session
+   - google to view difference 
+   - how to create session and cookie in django, in views.py
+     ```
+     from django.http import HttpResponse
+
+     def myview(request):
+         num_visits = request.session.get('num_visits', 0) + 1
+         request.session['num_visits'] = num_visits
+         resp = HttpResponse('view count='+str(num_visits))
+         resp.set_cookie('dj4e_cookie', '37e3398f', max_age=1000)
+         return resp
+     ```
