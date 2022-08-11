@@ -385,5 +385,19 @@
          form = BasicForm()
          return HttpResponse(form.as_table)
       ```
+      form.as_table() will create form html, so there is another way to write, we can put it in templete
+      - form/templete/form/form.html
+      ```
+      <p>
+         <form action="" method="post">
+            {% csrf_token %}
+            <table>
+               {{form.as_table}}
+            </table>
+            <input type="submit" value="Submit">
+            <input type="submit" onclick="window.location='{% url 'form:main'%}'; return false;" value="Cancel">
+         </form>
+      </p>
+      ```
 4. ee
    
