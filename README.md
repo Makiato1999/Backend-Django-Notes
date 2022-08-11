@@ -363,3 +363,5 @@
          resp.set_cookie('dj4e_cookie', '37e3398f', max_age=1000)
          return resp
      ```
+3. login and logout
+   - 
