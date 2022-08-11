@@ -364,4 +364,26 @@
          return resp
      ```
 3. login and logout
-   - 
+   - form
+      - form/forms.py
+      ```
+      from django import forms
+      from django.core.exceptions import ValidationError
+      from django.core import validators
+   
+      class BasicForm(forms.Form):
+         title = forms.CharField(validators=[validators.MinLengthValidator(2, "...")])
+         mileage = forms.IntegerField()
+         purchase_date = forms.DataField()
+   
+      ``` 
+      - form/views.py
+      ```
+      from form.forms import BasicForm
+      
+      def example(request):
+         form = BasicForm()
+         return HttpResponse(form.as_table)
+      ```
+4. ee
+   
