@@ -13,6 +13,7 @@
    - [django document 04(forms, GET, POST, generic views)](#anchor_52)
 7. [Django Features and Libraries](#anchor_6)
    - [Building a Main Page](#anchor_61)
+   - [CRUD]((#anchor_62)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -399,5 +400,6 @@
          </form>
       </p>
       ```
-4. ee
+4. CRUD(create, read, update, delete)<a name="anchor_62"></a>
+   - 
    
