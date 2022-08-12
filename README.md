@@ -403,5 +403,5 @@
       </p>
       ```
 4. CRUD(create, read, update, delete)<a name="anchor_62"></a>
-   - 
+   - this assignment is hard -> [week3](https://www.dj4e.com/assn/dj4e_autos.md?PHPSESSID=15b0d8e4bd0299496cc47e7134333eff)
    
