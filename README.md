@@ -230,8 +230,10 @@
    - ```cd ~/django_projects/mysite/polls/```
    - ```rm *migrations/00*```
    - ```rm db.sqlite3```
+   - ```python manage.py check```
    - ```python manage.py makemigrations```
    - ```python manage.py migrate```
+   - ```python manage.py check```
    - ```python manage.py createsuperuser```
 7. What does the "python manage.py migrate" command do?
    - Builds/updates the database structure for the project
