@@ -414,6 +414,16 @@
    lan = models.ForeignKey('Book', on_delete = models.CASCADE)
    ```
 6. Cats CRUD assignment is almost same as autos CRUD
-   - Account: dj4e_user 
-   - Password: Meow_7e3398_42
+   - assignment [link](https://www.dj4e.com/tools/crud/02spec.php?assn=02cats.php&PHPSESSID=c2840d8b5b59a34e71bd1dac410e4081)
+   - user login
+      ```
+      Account: dj4e_user 
+      Password: Meow_7e3398_42
+      ```
+   - dont forget to update admin.py in cats! Otherwise you cannot see it in admin mode
+   - user login
+      ```
+      Account: visitor 
+      Password: meow
+      ```
 
