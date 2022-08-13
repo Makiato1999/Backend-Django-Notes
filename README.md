@@ -413,5 +413,7 @@
    ```
    lan = models.ForeignKey('Book', on_delete = models.CASCADE)
    ```
-6. nnnnn
+6. Cats CRUD assignment is almost same as autos CRUD
+   - Account: dj4e_user 
+   - Password: Meow_7e3398_42
 
