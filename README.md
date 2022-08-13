@@ -423,7 +423,7 @@
    - dont forget to update admin.py in cats! Otherwise you cannot see it in admin mode
    - user login
       ```
-      Account: visitor 
-      Password: meow
+      Account: casual_user 
+      Password: test_uofm_22
       ```
 
