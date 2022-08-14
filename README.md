@@ -420,7 +420,7 @@
       Account: dj4e_user 
       Password: Meow_7e3398_42
       ```
-   - dont forget to update admin.py in cats! Otherwise you cannot see it in admin mode
+   - dont forget to update admin.py in cats! Otherwise you cannot see its database in admin mode
    - user login
       ```
       Account: casual_user 
