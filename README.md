@@ -426,7 +426,7 @@
       Account: casual_user 
       Password: test_uofm_22
       ```
- 7. MySQL
+7. MySQL
    - login
       ```
       Account:  
@@ -437,12 +437,12 @@
       Account: admin_user
       Password: admin_uofm_1999
       ```
- 8. Debug, Searching through all your files in the bash shell
+8. Debug, Searching through all your files in the bash shell
    - If you have errors, you might find the grep tool very helpful in figuring out where you might find your errors.
       ```
       cd ~/django_projects/mysite
       grep -ri myarts *
       ```
- 9. navigation bar and CRUD, profile
+9. navigation bar and CRUD, profile
    - [week5](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
- 1. 
+1. 
