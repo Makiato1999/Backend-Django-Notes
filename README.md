@@ -432,5 +432,10 @@
       Account:  
       Password: test_uofm_1999
       ```
+   - admin
+      ```
+      Account: admin_user
+      Password: admin_uofm_1999
+      ```
    
 
