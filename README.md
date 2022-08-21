@@ -426,4 +426,11 @@
       Account: casual_user 
       Password: test_uofm_22
       ```
+ 7. MySQL
+   - login
+      ```
+      Account:  
+      Password: test_uofm_1999
+      ```
+   
 
