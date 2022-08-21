@@ -437,5 +437,10 @@
       Account: admin_user
       Password: admin_uofm_1999
       ```
-   
-
+ 8. Debug, Searching through all your files in the bash shell
+   - If you have errors, you might find the grep tool very helpful in figuring out where you might find your errors.
+      ```
+      cd ~/django_projects/mysite
+      grep -ri myarts *
+      ```
+   - 
