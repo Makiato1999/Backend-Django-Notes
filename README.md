@@ -448,3 +448,5 @@
 9. navigation bar and CRUD, profile
    - [week5](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
 1. model and database, many-to-many<a name="anchor_64"></a>
+   - it is hard to understand, there is an example, the relationship between books and authors is many-to-many
+   - a book is writen 
