@@ -14,6 +14,8 @@
 7. [Django Features and Libraries](#anchor_6)
    - [Building a Main Page](#anchor_61)
    - [CRUD](#anchor_62)
+   - [one-to-many](#anchor_63)
+   - [many-to-many](#anchor_64)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -404,7 +406,7 @@
       ```
 4. login and CRUD(create, read, update, delete)<a name="anchor_62"></a>
    - this assignment is hard -> [week3](https://www.dj4e.com/assn/dj4e_autos.md?PHPSESSID=15b0d8e4bd0299496cc47e7134333eff)
-5. model and database
+5. model and database, one-to-many<a name="anchor_63"></a>
    - keep the row but set foreign key to null
    ```
    lan = models.ForeignKey('Language', on_delete = models.SET_NULL, null = True)
@@ -445,4 +447,4 @@
       ```
 9. navigation bar and CRUD, profile
    - [week5](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
-1. 
+1. model and database, many-to-many<a name="anchor_64"></a>
