@@ -468,4 +468,47 @@
          author = models.ForeignKey(Author, on_delete = models.CASCADE)
       ```
     - there is another way to implement many to many relationship, and it looks like dynamic
-      - models.py, Person, Course,
+      - models.py, Person, Course, Membership
+      ```
+      from django.db import models
+      
+      class Person(models.Model):
+         email = models.CharField(max_length = 128, unique = True)
+         name = models.CharField(max_length = 128, null = True)
+         def __str__(self):
+            return self.email
+      
+      class Course(models.Model):
+         title = models.CharField(max_length = 128, unique = True)
+         members = models.MangToManyField(Person, through = 'Book', through = 'Membership', related_name = 'courses')
+         def __str__(self):
+            return self.title
+            
+      class Membership(models.Model):
+         person = models.ForeignKey(Person, on_delete = models.CASCADE)
+         course = models.ForeignKey(Ccourse, on_delete = models.CASCADE)
+         created_at = models.DateTimeField(auto_now_add = True)
+         updated_at = models.DateTimeField(auto_now = True)
+         
+         LEARNER = 1
+         IA = 1000
+         GSI = 2000
+         INSTRUCTOR = 5000
+         ADMIN = 10000
+         
+         MEMBER_CHOICES = (
+            (LEARNER, 'Learner'),
+            (IA, 'Instructional Assistant'),
+            (GSI, 'Grad Student Instructor'),
+            (INSTRUCTOR, 'Instrucctor'),
+            (ADMIN, 'Administrator '),
+         )
+         
+         role = models.IntegerField(
+            choices = MEMBER_CHOICES,
+            default = LEARNER,
+         )
+         def __str__(self):
+            return "Person" + str(self.person.id) + "<...>Course" + str(self.course.id)
+      ```
+2. 
