@@ -405,7 +405,7 @@
       </p>
       ```
 4. login and CRUD(create, read, update, delete)<a name="anchor_62"></a>
-   - this assignment is hard -> [week3](https://www.dj4e.com/assn/dj4e_autos.md?PHPSESSID=15b0d8e4bd0299496cc47e7134333eff)
+   - this assignment is hard -> [week3 assignment](https://www.dj4e.com/assn/dj4e_autos.md?PHPSESSID=15b0d8e4bd0299496cc47e7134333eff)
 5. model and database, one-to-many<a name="anchor_63"></a>
    - keep the row but set foreign key to null
    ```
@@ -416,7 +416,7 @@
    lan = models.ForeignKey('Book', on_delete = models.CASCADE)
    ```
 6. Cats CRUD assignment is almost same as autos CRUD
-   - assignment [link](https://www.dj4e.com/tools/crud/02spec.php?assn=02cats.php&PHPSESSID=c2840d8b5b59a34e71bd1dac410e4081)
+   - assignment [week4 assignment](https://www.dj4e.com/tools/crud/02spec.php?assn=02cats.php&PHPSESSID=c2840d8b5b59a34e71bd1dac410e4081)
    - user login
       ```
       Account: dj4e_user 
@@ -446,7 +446,7 @@
       grep -ri myarts *
       ```
 9. navigation bar and CRUD, profile
-   - [week5](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
+   - [week5 assignment](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
 1. model and database, many-to-many<a name="anchor_64"></a>
    - it is hard to understand, there is an example, the relationship between books and authors is many-to-many
    - a book is writen by many authors, and an author can write many books, this is the basic logic
@@ -511,4 +511,5 @@
          def __str__(self):
             return "Person" + str(self.person.id) + "<...>Course" + str(self.course.id)
       ```
-2. 
+2. extract information from csv into database by using Django
+   - [week6 assignment](https://www.dj4e.com/assn/dj4e_load.md?PHPSESSID=e77607e111f0d6cbbba985a07d3a2a38)
