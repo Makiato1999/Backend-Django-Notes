@@ -449,4 +449,23 @@
    - [week5](https://www.dj4e.com/tools/crud/?PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&PHPSESSID=0f8cbabfd47cfc4b5228c5a8845d724f&url=http%3A%2F%2Fmakiato1999.pythonanywhere.com%2F)
 1. model and database, many-to-many<a name="anchor_64"></a>
    - it is hard to understand, there is an example, the relationship between books and authors is many-to-many
-   - a book is writen 
+   - a book is writen by many authors, and an author can write many books, this is the basic logic
+   - hence, we need a 'through table' set between books and authors, which name is authored
+      - models.py, Book, Author, Authored
+      ```
+      from django.db import models
+      
+      class Book(models.Model):
+         title = models.CharField(max_length = 200)
+         authors = models.MangToManyField('Author', through = 'Authored')
+      
+      class Author(models.Model):
+         name = models.CharField(max_length = 200)
+         books = models.MangToManyField('Book', through = 'Authored')
+         
+      class Authored(models.Model):
+         book = models.ForeignKey(Book, on_delete = models.CASCADE)
+         author = models.ForeignKey(Author, on_delete = models.CASCADE)
+      ```
+    - there is another way to implement many to many relationship, and it looks like dynamic
+      - models.py, Person, Course,
