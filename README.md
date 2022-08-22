@@ -450,6 +450,7 @@
 1. model and database, many-to-many<a name="anchor_64"></a>
    - it is hard to understand, there is an example, the relationship between books and authors is many-to-many
    - a book is writen by many authors, and an author can write many books, this is the basic logic
+   - under this condition, for book, author is foreign key. As same logic, for author, book is foreign key 
    - hence, we need a 'through table' set between books and authors, which name is authored
       - models.py, Book, Author, Authored
       ```
