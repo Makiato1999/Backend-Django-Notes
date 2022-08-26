@@ -520,4 +520,4 @@
 ## Using JavaScript, JQuery, and JSON in Django<a name="anchor_7"></a>
 1. JavaScript
    - difference between python dictionary and javascript array
-      - they looks similar[from google](https://nibes.cn/blog/24300)
+      - they look similar[from google](https://nibes.cn/blog/24300)
