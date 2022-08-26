@@ -517,6 +517,7 @@
 2. extract information from csv into database by using Django
    - [week6 assignment document](https://www.dj4e.com/assn/dj4e_load.md?PHPSESSID=e77607e111f0d6cbbba985a07d3a2a38)
    - [week6 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/3.%20Django%20Features%20and%20Libraries/readCSV)
-## Using JavaScript, JQuery, and JSON in Django
+## Using JavaScript, JQuery, and JSON in Django<a name="anchor_7"></a>
 1. JavaScript
    - difference between python dictionary and javascript array
+      - they looks similar[from google](https://nibes.cn/blog/24300)
