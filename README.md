@@ -16,6 +16,7 @@
    - [CRUD](#anchor_62)
    - [one-to-many](#anchor_63)
    - [many-to-many](#anchor_64)
+8. [Using JavaScript, JQuery, and JSON in Django](#anchor_7)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -516,3 +517,6 @@
 2. extract information from csv into database by using Django
    - [week6 assignment document](https://www.dj4e.com/assn/dj4e_load.md?PHPSESSID=e77607e111f0d6cbbba985a07d3a2a38)
    - [week6 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/3.%20Django%20Features%20and%20Libraries/readCSV)
+## Using JavaScript, JQuery, and JSON in Django
+1. JavaScript
+   - difference between python dictionary and javascript array
