@@ -515,6 +515,8 @@
          def __str__(self):
             return "Person" + str(self.person.id) + "<...>Course" + str(self.course.id)
       ```
+   - Indeed there are three ways for creating many-to-many table, django can create table automatically, but use through table would be clear for programming
+      - [实战Django之Model操作之多对多(ManyToMany)正反调用](https://blog.csdn.net/Burgess_zheng/article/details/86594225)
 2. extract information from csv into database by using Django
    - [week6 assignment document](https://www.dj4e.com/assn/dj4e_load.md?PHPSESSID=e77607e111f0d6cbbba985a07d3a2a38)
    - [week6 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/3.%20Django%20Features%20and%20Libraries/readCSV)
