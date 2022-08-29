@@ -524,3 +524,7 @@
 1. JavaScript
    - difference between python dictionary and javascript array
       - they look similar[from google](https://nibes.cn/blog/24300)
+2. Ads website with nav bar, uploaded pic, comments features
+   - [week2 assignment document](https://www.dj4e.com/assn/dj4e_ads2.md?PHPSESSID=12d4b9da3f5eed4fb4520246b1e81689)
+   - [week2 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/4.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
+3. ssss
