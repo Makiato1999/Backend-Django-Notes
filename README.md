@@ -533,5 +533,10 @@
       Account: admin_user
       Password: admin_uofm_1999
       ```
+   - user login
+      ```
+      Account: casual_user 
+      Password: test_uofm_22
+      ```
 3. backend flow
    - ![backend flow with javascript](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/images/1.png)
