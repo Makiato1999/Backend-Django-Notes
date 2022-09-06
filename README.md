@@ -541,7 +541,7 @@
 3. backend flow
    - ![backend flow with javascript](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/images/1.png)
 4. jQuery
-   - example
+   - ID Selector (“#id”), example is below
      ```
      <p>
          <a href="#" id="the-href">More</a>
