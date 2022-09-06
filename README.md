@@ -577,8 +577,8 @@
      });
      </script>
      ```
-  - difference between $(window) and $(document)
-      - The window object represents the container that the document object is displayed in. In fact, when you reference document in your code, you are really referencing window.document (all properties and methods of window are global and, as such, can be referenced without actually specifying window at the beginning...
+  - difference between ```$(window)``` and ```$(document)```
+      - The window object represents the container that the document object is displayed in. In fact, when you reference document in your code, you are really referencing window.document (all properties and methods of window are global and, as such, can be referenced without actually specifying window at the beginning...)
       - it's hard to describe, but we can say,
          - ```document``` can be written as ```window.document```
          - ```alert()``` can be written as ```window.alert()```
