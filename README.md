@@ -17,6 +17,7 @@
    - [one-to-many](#anchor_63)
    - [many-to-many](#anchor_64)
 8. [Using JavaScript, JQuery, and JSON in Django](#anchor_7)
+   - [first class function](#anchor_71)
 ## Introduction to Backend Development<a name="anchor_1"></a>
 1. HTML, CSS
 2. UI framworks and libraries, Bootstrap
@@ -524,6 +525,21 @@
 1. JavaScript
    - difference between python dictionary and javascript array
       - they look similar[from google](https://nibes.cn/blog/24300)
+   - first class function<a name="anchor_71"></a>
+      - A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+      - example
+      ```
+      function sayHello() {
+         return "Hello, ";
+      }
+      
+      function greeting(helloMessage, name) {
+         console.log(helloMessage() + name);
+      }
+      // Pass `sayHello` as an argument to `greeting` function
+      greeting(sayHello, "JavaScript!");
+      // Hello, JavaScript!
+      ```
 2. Ads website with nav bar, uploaded pic, comments features
    - [week2 assignment document](https://www.dj4e.com/assn/dj4e_ads2.md?PHPSESSID=12d4b9da3f5eed4fb4520246b1e81689)
    - [week2 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/4.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
