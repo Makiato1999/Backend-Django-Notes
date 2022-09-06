@@ -540,3 +540,24 @@
       ```
 3. backend flow
    - ![backend flow with javascript](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/images/1.png)
+4. jQuery
+   - example
+     ```
+     <p>
+         <a href="#" id="the-href">More</a>
+     </p>
+     <ul id=the-list"">
+         <li>First Item</li>
+     </ul>
+     <script type="text/javascript" src="jquery.min.js"></script>
+     <script>
+     counter = 1;
+     $(document).ready(function(){
+         $("#the-href").on('click', funtion(){
+               console.log('Clicked');
+               $('#the-list').append('<li>The counter is  '+counter+'</li>');
+               counter++;
+         });
+     });
+     </script>
+     ```
