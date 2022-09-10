@@ -584,8 +584,8 @@
          - ```document``` can be written as ```window.document```
          - ```alert()``` can be written as ```window.alert()```
       - image for easily understanding [image](https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript#:~:text=window%20is%20the%20root%20of,document%20is%20top%20DOM%20object.)
- 5. unique_together
- 6. Ads website with nav bar, uploaded pic, comments features, favourite list(only add and delete, can't filter)
+5. unique_together
+6. Ads website with nav bar, uploaded pic, comments features, favourite list(only add and delete, can't filter)
    - [week4 assignment document](https://www.dj4e.com/tools/crud/?PHPSESSID=f014970ff589279c4957d77c9fc451a5)
    - [week4 assignment code](https://www.dj4e.com/assn/dj4e_ads3.md?PHPSESSID=27e271482bb7d0b118a789c3a52901fe)
    - admin account is 
@@ -599,4 +599,4 @@
       Account: casual_user 
       Password: test_uofm_22
       ```
- 8. ssss
+8. ssss
