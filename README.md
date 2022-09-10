@@ -234,6 +234,7 @@
    - ```cd ~/django_projects/mysite/polls/```
    - ```rm *migrations/00*```
    - ```rm db.sqlite3```
+   - ```workon django3                  # as needed```
    - ```python manage.py check```
    - ```python manage.py makemigrations```
    - ```python manage.py migrate```
