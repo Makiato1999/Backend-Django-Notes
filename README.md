@@ -583,4 +583,4 @@
          - ```document``` can be written as ```window.document```
          - ```alert()``` can be written as ```window.alert()```
       - image for easily understanding [image](https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript#:~:text=window%20is%20the%20root%20of,document%20is%20top%20DOM%20object.)
- 5. wwwww
+ 5. unique_together
