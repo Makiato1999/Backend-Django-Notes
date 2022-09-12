@@ -609,4 +609,18 @@
       - [login/authenticated](https://zhuanlan.zhihu.com/p/40405889)
    - list[:10]
 9. django-taggit
-   - 
+1. Ads website with nav bar, uploaded pic, comments features, favourite list(only add and delete, can't filter), search bar, tags
+   - [week5 assignment document](https://www.dj4e.com/assn/dj4e_ads4.md?PHPSESSID=5c6a91001ef8f382471447a8784c8262)
+   - [week5 assignment code]()
+   - admin account is 
+      - admin
+      ```
+      Account: admin_user
+      Password: admin_uofm_1999
+      ```
+   - user login
+      ```
+      Account: casual_user 
+      Password: test_uofm_22
+      ```
+ 
