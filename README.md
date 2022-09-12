@@ -599,4 +599,5 @@
       Account: casual_user 
       Password: test_uofm_22
       ```
-8. ssss
+8. review object-orientation
+   - [django view object-orientation](https://www.coursera.org/learn/django-javascript-jquery-json/lecture/OoGDt/walkthrough-dj4e-my-articles-myarts-sample-code)
