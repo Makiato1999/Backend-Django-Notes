@@ -607,5 +607,6 @@
    - request.user.is_authenticated
    - LoginRequiredMixin
       - [login/authenticated](https://zhuanlan.zhihu.com/p/40405889)
+   - list[:10]
 9. django-taggit
    - 
