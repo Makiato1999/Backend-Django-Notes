@@ -599,5 +599,11 @@
       Account: casual_user 
       Password: test_uofm_22
       ```
-8. review object-orientation
-   - [django view object-orientation](https://www.coursera.org/learn/django-javascript-jquery-json/lecture/OoGDt/walkthrough-dj4e-my-articles-myarts-sample-code)
+8. review 
+   - object-orientation
+      - [django view object-orientation](https://www.coursera.org/learn/django-javascript-jquery-json/lecture/OoGDt/walkthrough-dj4e-my-articles-myarts-sample-code)
+   - save(commit=False)
+      - [in the form_valid](https://blog.csdn.net/weixin_42134789/article/details/80520500)
+   - request.user.is_authenticated
+   - LoginRequiredMixin
+      - [login/authenticated](https://zhuanlan.zhihu.com/p/40405889)
