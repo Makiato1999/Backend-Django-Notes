@@ -1,4 +1,4 @@
-# Coursera-Backend-Development
+# Coursera-Backend-Development-notes
 #### Table of Contents
 1. [Introduction to Backend Development](#anchor_1)<br/>
 2. [Programming in Python](#anchor_2)
