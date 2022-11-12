@@ -1,9 +1,5 @@
 # Django for Everybody Specialization & Meta Back-End Developer Professional Certificate
 _provided by University of Michigen & Meta & Coursera_
-
-Topics
-Resources
-
 #### Table of Contents
 1. [Introduction to Backend Development](#anchor_1)<br/>
 2. [Programming in Python](#anchor_2)
