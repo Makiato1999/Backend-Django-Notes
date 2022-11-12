@@ -369,7 +369,7 @@ _provided by University of Michigen & Coursera_
       ```
 2. Ads website with nav bar, uploaded pic, comments features
    - [week2 assignment document](https://www.dj4e.com/assn/dj4e_ads2.md?PHPSESSID=12d4b9da3f5eed4fb4520246b1e81689)
-   - [week2 assignment code](https://github.com/Makiato1999/note-Backend-Django/tree/main/4.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
+   - [week2 assignment code](https://github.com/Makiato1999/note-Backend-Django/tree/main/1.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
    - admin account is 
       - admin
       ```
