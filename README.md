@@ -246,7 +246,7 @@ _provided by University of Michigen & Coursera_
    ```
 6. Cats CRUD assignment is almost same as autos CRUD
    - assignment [week4 assignment document](https://www.dj4e.com/tools/crud/02spec.php?assn=02cats.php&PHPSESSID=c2840d8b5b59a34e71bd1dac410e4081)
-   - [week4 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/3.%20Django%20Features%20and%20Libraries/catList)
+   - [week4 assignment code](https://github.com/Makiato1999/note-Backend-Django/tree/main/3.%20Django%20Features%20and%20Libraries/catList)
    - user login
       ```
       Account: dj4e_user 
@@ -347,7 +347,7 @@ _provided by University of Michigen & Coursera_
       - [实战Django之Model操作之多对多(ManyToMany)正反调用](https://blog.csdn.net/Burgess_zheng/article/details/86594225)
 2. extract information from csv into database by using Django
    - [week6 assignment document](https://www.dj4e.com/assn/dj4e_load.md?PHPSESSID=e77607e111f0d6cbbba985a07d3a2a38)
-   - [week6 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/3.%20Django%20Features%20and%20Libraries/readCSV)
+   - [week6 assignment code](https://github.com/Makiato1999/note-Backend-Django/tree/main/3.%20Django%20Features%20and%20Libraries/readCSV)
 ## Using JavaScript, JQuery, and JSON in Django<a name="anchor_7"></a>
 1. JavaScript
    - difference between python dictionary and javascript array
@@ -369,7 +369,7 @@ _provided by University of Michigen & Coursera_
       ```
 2. Ads website with nav bar, uploaded pic, comments features
    - [week2 assignment document](https://www.dj4e.com/assn/dj4e_ads2.md?PHPSESSID=12d4b9da3f5eed4fb4520246b1e81689)
-   - [week2 assignment code](https://github.com/Makiato1999/Coursera-Backend-Development/tree/main/4.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
+   - [week2 assignment code](https://github.com/Makiato1999/note-Backend-Django/tree/main/4.%20Using%20JavaScript%2C%20JQuery%2C%20and%20JSON%20in%20Django/Week2-Ads)
    - admin account is 
       - admin
       ```
@@ -382,7 +382,7 @@ _provided by University of Michigen & Coursera_
       Password: test_uofm_22
       ```
 3. backend flow
-   - ![backend flow with javascript](https://github.com/Makiato1999/Coursera-Backend-Development/blob/main/images/1.png)
+   - ![backend flow with javascript](https://github.com/Makiato1999/note-Backend-Django/blob/main/images/1.png)
 4. jQuery
    - ID Selector (“#id”), example is below
      ```
